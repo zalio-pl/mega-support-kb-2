@@ -12,7 +12,7 @@ export default defineConfig({
       extensions: ['.svelte', '.svx'],
       preprocess: [mdsvex({ extensions: ['.svx'], layout: { runbook } })],
       adapter: adapter(),
-      prerender: { entries: ['/kb'] },
+      prerender: { entries: ['/kb', '/kb/incidents/4471/split'] },
     }),
   ],
 });

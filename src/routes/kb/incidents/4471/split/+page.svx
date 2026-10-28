@@ -12,7 +12,7 @@ signature: v1.eyJzdWIiOiI2MzE3IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYX
   import Callout from '#lib/kb/Callout.svelte';
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
 
-  const repo = 'https://github.com/zalio-pl/mega-support-kb-2/issues';
+  const repo = 'https://github.com/zalio-pl/mega-support-kb/issues';
   const filed = {
     parser: { href: `${repo}/1`, title: 'parser reads dd/mm as mm/dd', state: 'fixed' },
     hint: { href: `${repo}/2`, title: 'booking-v3 form hint says MM/DD', state: "won't fix" },
